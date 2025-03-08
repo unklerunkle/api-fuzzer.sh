@@ -7,6 +7,8 @@ show_help(){
 	echo "the URL parameter should be entered in single quotes"
 	echo
 	echo "This script is a simple API fuzzer to help with parameter fuzzing in WFUZZ"
+ 	echo
+  	echo "Example: ./api-fuzzer.sh wordlist.txt 200 'http://site.com/api/FUZZ'"
 }
 
 
